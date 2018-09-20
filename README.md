@@ -1,4 +1,4 @@
-# blockchainify
+# Blockchainify
 Token crowd sale smart contracts using Truffle and Zeppelin Solidity.
 
 Truffle is the defacto framework for creating smart contrats and dapps.
