@@ -7,7 +7,9 @@ Truffle is the defacto framework for creating smart contrats and dapps.
 ==> npm install -g ganache-cli
 ==> npm install -g truffle
 ==>  mkdir flo-ico && cd flo-ico
+==> npm init
 ==> truffle init
+==> npm install zeppelin-solidity
 ==> npm install zeppelin-solidity@1.7.0
 
 
