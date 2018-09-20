@@ -113,13 +113,15 @@ module.exports = function(deployer, network, accounts) {
 
 ~~~
 
+// Compile and deploy the smart contracts
 
-
+~~~
 ==> truffle compile
 
 ==> truffle migrate
 
 ==> truffle console
+~~~
 
 // The account that will buy FLO tokens.
 ~~~
