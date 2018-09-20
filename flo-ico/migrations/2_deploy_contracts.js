@@ -13,12 +13,12 @@ module.exports = function(deployer, network, accounts) {
         })
         .then(() => {
             return deployer.deploy(
-                GustavoCoinCrowdsale,
+                FlooCoinCrowdsale,
                 openingTime,
                 closingTime,
                 rate,
                 wallet,
-                GustavoCoin.address
+                FloCoin.address
             );
         });
 };
