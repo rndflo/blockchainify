@@ -1,12 +1,12 @@
 pragma solidity 0.4.19;
 
-import './FloCoin.sol';
-import 'zeppelin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol';
-import 'zeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol';
+import "./FloCoin.sol";
+import "zeppelin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol";
+import "zeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol";
 
 
 contract FloCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
-    function GustavoCoinCrowdsale
+    function FloCoinCrowdsale
         (
             uint256 _openingTime,
             uint256 _closingTime,
