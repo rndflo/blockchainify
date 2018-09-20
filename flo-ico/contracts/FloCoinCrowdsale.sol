@@ -1,4 +1,4 @@
-pragma solidity 0.4.19;
+pragma solidity 0.4.24;
 
 import "./FloCoin.sol";
 import "zeppelin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol";
@@ -6,7 +6,7 @@ import "zeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol";
 
 
 contract FloCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
-    function FloCoinCrowdsale
+    constructor 
         (
             uint256 _openingTime,
             uint256 _closingTime,

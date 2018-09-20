@@ -13,7 +13,7 @@ module.exports = function(deployer, network, accounts) {
         })
         .then(() => {
             return deployer.deploy(
-                FlooCoinCrowdsale,
+                FloCoinCrowdsale,
                 openingTime,
                 closingTime,
                 rate,
