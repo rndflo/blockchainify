@@ -4,6 +4,7 @@ Token crowd sale smart contracts using Truffle and Zeppelin Solidity.
 Truffle is the defacto framework for creating smart contrats and dapps.
 
 ## Steps
+~~~
 ==> npm install -g ganache-cli
 
 ==> npm install -g truffle
@@ -22,6 +23,7 @@ Truffle is the defacto framework for creating smart contrats and dapps.
 ==> truffle version
 Truffle v4.1.14 (core: 4.1.14)
 Solidity v0.4.24 (solc-js)
+~~~
 
 Create contracts/FloCoin.sol  with the following contents
 
